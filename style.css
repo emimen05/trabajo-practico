@@ -1,0 +1,695 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+
+    header
+        {
+        /* width: 100vw; */
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 58px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+}
+
+        .navegador-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        width: 1290px;
+        height: 48px;
+    
+
+}
+    .Logo-hostinguer{
+        width: 180px;
+        padding: 20px 0px 20px 40px;}
+
+    .navegador-srvicios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px;
+        width: 492px 26px;
+        gap:20px;
+    
+    
+}
+    .navegador-srvicios--items{
+        color: #1d1E20;
+        font-family: sans-serif;
+        font-size: 12px;
+        text-decoration-style: none;
+        text-decoration: none;
+}
+    ul {
+        list-style-type: none}
+
+    .selector-idioma-login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; }  
+
+    .idioma{
+        color: #1d1E20;
+        font:  sans-serif;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        font-weight: 700;
+        font-family: sans-serif; 
+        font-size: 12px;
+}
+    .idioma-ingles{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .bandera-eeuu{   
+        width: 35px;}
+
+    .Boton_loguear{
+        width: 80px;
+        height: 48px;
+        color: #1d1E20;
+        font-family:  sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 12PX 16PX;
+        border-radius: 10px;
+        overflow: hidden;
+        font-weight: 700;
+        }
+    .bi-chevron-down {
+        font-size: 12px;
+        }
+    .bi-list {display: none;}
+
+        /* TERMINA EL HEADER */
+.general-creador-web{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 80px 0px 80px;
+    width: 100vw; }
+
+
+    .creador-web{
+    width: 100vw; 
+    padding: 36px 160px 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    
+    
+} 
+
+
+
+.descripcion-creador-web{
+    width: 440px;
+    height: 442px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.titulo-introduccion{
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+    
+
+}
+
+.introduccion-creador-web{
+    color: #461c6a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.imagen-creador-web{padding: 16px;
+     /* margin: 20px; */
+    }
+
+.precio-porcentaje{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 8px;
+    
+}
+.descripcion-seccion-primero{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #461c6a;
+
+}
+.descripcion-seccion-segundo{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #461c6a;}
+
+.porcentaje-descripcion{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #673de6;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.lista-beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 16px;
+    
+
+}
+
+.item-lista-icono-check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    
+
+}
+.bi-check-lg{color: green;font-size: 20px;}
+.item-lista{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #461c6a;
+}
+.bi-question-circle{
+    font-size: 13px;
+    color: #461c6a;
+    
+}
+
+.precio-dolar {
+    display: flex;
+    flex-direction: row;
+    color: #461c6a;
+    font-family: "DM Sans", sans-serif;
+    align-items: baseline;
+
+}
+.precio-dolar-divisa{
+    font-size: 20px;
+    
+}
+.precio-dolar-numero{
+    font-size: 48px;
+    font-weight: 600;
+}
+.precio-dolar-sufijo{
+font-size: 20px;}
+
+.meses-gratis{
+    color: #2f1c6a;
+    font-family:"DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
+
+.seccion-botones{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    
+}
+.boton-reclamo{
+    width: 182px;
+    height: 48px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:  #673de6;
+    color: white;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    padding: 12px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.reloj-cuenta-regresiva {
+    width: 160px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #e2dbfc;
+    overflow: hidden;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#673de6 ;
+}
+.anunciado-garantia{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #461c6a;
+    margin-top: 10px;
+}
+.garantia{
+    font-size: 16px;
+    color: #461c6a;}
+
+.bi-shield-check{color: #461c6a}
+
+
+.imagen-creador-web{
+    width: 616px;
+    height: 403px;
+}
+
+/* TERMINA LA PRIMERA SECTION */
+
+.seccion-migracion{
+    max-width: 100vw;
+    background-color:#1f1346 ;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 80px 160px 80px 160px;
+   
+}
+
+.Introduccion-migracion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px ;
+    gap: 24px;
+    }
+.titulo-migracion{
+    font-size: 36px;
+    }
+
+.caracteristicas-migracion{
+    max-width: 540vw;
+    padding: 30px 160px 30px 160px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.caracteristicas-migracion-tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 270px;
+    padding: 32px;
+    background-color: #2f1c6a;
+    gap: 24px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #673de6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bi-globe{
+font-size: 20px;
+    
+}
+
+.contenedor-boton-migracion{
+    /* margin-top: 32px; */
+    background-color: #673de6;
+    width: 190px;
+    height: 48px;
+    padding: 12px 48px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Boton-migracion{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+/* TERMINA LA SEGUNDA SECTION  */
+
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f5ff;
+    margin-bottom: 80px;
+
+}
+
+.footer-hostinger{
+
+    width: 1128px;
+    height: 88px;
+    position: relative;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background-color: #f4f5ff;
+    
+}
+.logo-hostiger{
+    width: 147px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    background-color: #f4f5ff;
+    }
+
+.metodo-pago-tarjetas{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.Tarjetas-credito{
+    height: 40px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgb(160, 160, 199);
+    overflow: hidden;
+    }
+.mas-tarjetas{
+    color: #673de6;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.iconos-redes-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bi-linkedin{
+    font-size: 32px;
+    color: #2f1c6a;
+}
+.bi-facebook{
+    font-size: 32px;
+    color: #2f1c6a;
+}
+.bi-instagram{
+    font-size: 32px;
+    color: #2f1c6a;
+}
+
+.bi-youtube{
+    font-size: 32px;
+    color: #2f1c6a;
+    
+}
+.bi-twitter-x{   
+    font-size: 32px;
+    color: #2f1c6a;
+    }
+.items-link-legal{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.link-legal{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: #2f1c6a;
+    text-decoration: none;}
+
+    .footer-hostinger-celu{
+        display: none;}
+
+
+
+/* BOTONES AYUDA */
+
+.botones-fijos-ayuda{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: fixed;
+    right: 30PX;
+    bottom: 10px;
+    gap: 10px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.boton-ayuda-mas-cerrar{
+display: flex;
+flex-direction: row;
+
+}
+
+.Boton-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #b5b7bb 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 221px;
+    height: 40px;
+    color: #1d1E20;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    padding: 8px 16px;
+    background-color: white;
+}
+
+
+.Botono-ayuda-cerrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #b5b7bb 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    color: #1d1E20;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    background-color: white;
+
+    
+}.boton-pregunta{ display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #b5b7bb 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 119px;
+    height: 40px;
+    color: white;
+    background-color: #673de6;
+    gap: 8px;
+    
+    }
+.bi-fullscreen-exit{
+    padding: 0px 0px 0px 5px;
+}
+
+.boton-pregunta-kode{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+.texto-boton-pregunta{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family:"DM Sans", sans-serif;
+    padding: 5px 5px 5px 5px;
+font-size: 12px;}
+
+
+
+@media screen and (max-width: 1000px) 
+
+
+
+{*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.navegador-header{
+    display: none;}
+.bi-list{
+    display: flex;
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    color: #2f1c6a;
+    font-weight: 600px;}
+
+    .general-creador-web{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+.creador-web{ 
+    display: flex;
+    flex-direction: column;
+    /* margin: 22px; */
+    
+    }
+.descripcion-creador-web{
+    padding: 16px 40px 16px 40px;
+    /* margin: 0px 123px;
+} */
+ }
+.caracteristicas-migracion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.titulo-migracion{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.Introduccion-migracion{ 
+    padding: 16px; }
+
+
+.descripcion-migracion{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-hostinger-celu{
+    display: flex; 
+    flex-direction:column;
+    gap:15px;
+    /* margin: 28px; */
+    padding: 16px;
+    }
+footer{
+    display: none;}
+
+.redes-sociales-footer-celu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    padding: 16px 0px;
+    
+}
+
+.Logo-footer-celu{
+    width: 147px;
+    background-color: #f4f5ff;
+
+} 
+.items-link-legal-footer-celu{   
+    display: flex; 
+    flex-direction: row;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: #2f1c6a;
+    text-decoration: none;
+    gap: 8px;}
+.metodo-pago-tarjetas-footer-celu{
+    display: flex;
+    flex-direction: column;
+}
+.metodo-pago-tarjetas-footer-celu-superior{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.metodo-pago-tarjetas-footer-celu-inferior{ 
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-items: center; 
+    align-items: center;}
+
+.mas-tarjetas{
+    color: #673de6;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}}
